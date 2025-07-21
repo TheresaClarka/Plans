@@ -681,6 +681,43 @@ var DeviceTypesMapubiquiti = map[string]*DeviceData{
             { Name: "eth0", Label: "", Type: "1000base-t", MgmtOnly: true },
         },
     },
+    "CloudKey Rack Mount": {
+        Manufacturer: "Ubiquiti",
+        Model: "CloudKey Rack Mount",
+        Slug: "ubiquiti-ckg2-rm",
+        UHeight: 1,
+        PartNumber: "CKG2-RM",
+        IsFullDepth: false,
+        Airflow: "passive",
+        FrontImage: true,
+        RearImage: true,
+        SubdeviceRole: "parent",
+        Weight: 600,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+        },
+			  DeviceBays: []DeviceBay{
+            { Name: "Cloud Key", Label: "2nd Gen Cloud Key" },
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+            { Name: "eth0", Label: "", Type: "1000base-t", MgmtOnly: true },
+        },
+    },
     "E7": {
         Manufacturer: "Ubiquiti",
         Model: "E7",
@@ -5314,8 +5351,8 @@ var DeviceTypesMapubiquiti = map[string]*DeviceData{
         UHeight: 1,
         PartNumber: "US-16-150W",
         IsFullDepth: false,
-        Airflow: "",
-        FrontImage: false,
+        Airflow: "front-to-rear",
+        FrontImage: true,
         RearImage: false,
         SubdeviceRole: "",
         Weight: 0,
@@ -5423,8 +5460,8 @@ var DeviceTypesMapubiquiti = map[string]*DeviceData{
         UHeight: 1,
         PartNumber: "US-16-XG",
         IsFullDepth: false,
-        Airflow: "",
-        FrontImage: false,
+        Airflow: "front-to-rear",
+        FrontImage: true,
         RearImage: false,
         SubdeviceRole: "",
         Weight: 0,
@@ -5916,8 +5953,8 @@ var DeviceTypesMapubiquiti = map[string]*DeviceData{
         UHeight: 1,
         PartNumber: "US-48",
         IsFullDepth: false,
-        Airflow: "",
-        FrontImage: false,
+        Airflow: "front-to-rear",
+        FrontImage: true,
         RearImage: false,
         SubdeviceRole: "",
         Weight: 0,
